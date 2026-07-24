@@ -4,7 +4,7 @@ export const COMPANY = {
   email: 'zesino1676@gmail.com',
   telegram: '@ZeSinoTrading',
   telegramUrl: 'https://t.me/ZeSinoTrading',
-  phones: ['+251983676767', '+251983575757', '+251911222954', '+251911248706'],
+  phones: [  '+251911248706','+251911222954' , '+251983676767', '+251983575757',],
   businessHours: {
     days: 'Monday – Saturday',
     hours: '8:00 AM – 5:00 PM',
