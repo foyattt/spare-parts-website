@@ -1,52 +1,42 @@
-import { IMAGES } from './company';
-
 export const FEATURED_PARTS = [
   {
     id: 'featured-engine',
     category: 'Engine Parts',
     title: 'Engine Components',
     description:
-      'Complete range of pistons, gaskets, turbochargers, and cooling system parts for Sinotruk engines.',
-    image: IMAGES.engine,
-  },
-  {
-    id: 'featured-brake',
-    category: 'Brake System',
-    title: 'Brake Components',
-    description:
-      'High-performance brake pads, discs, calipers, and air brake system parts for heavy-duty trucks.',
-    image: IMAGES.brake,
+      'Complete range of pistons, crankshafts, turbochargers, and cooling system parts for Sinotruk engines.',
+    image: '/images/motor.jpg',
   },
   {
     id: 'featured-transmission',
     category: 'Transmission',
     title: 'Transmission Parts',
     description:
-      'Gearbox assemblies, clutch plates, synchronizers, and driveline components for HOWO and SITRAK.',
-    image: IMAGES.transmission,
+      'Gearbox assemblies, mainshafts, housing covers, and driveline components for HOWO and SITRAK.',
+    image: '/images/transmission parts.jpg',
   },
   {
-    id: 'featured-suspension',
-    category: 'Suspension',
-    title: 'Suspension Parts',
+    id: 'featured-differential',
+    category: 'Differential',
+    title: 'Differential parts',
     description:
-      'Leaf springs, shock absorbers, air bags, and chassis components built for demanding road conditions.',
-    image: IMAGES.suspension,
+      'Differential housing covers, third differentials, and bevel gears built for heavy-duty torque transfer.',
+    image: '/images/differential pats.jpg',
   },
   {
     id: 'featured-electrical',
     category: 'Electrical Parts',
     title: 'Electrical Components',
     description:
-      'Sensors, wiring harnesses, alternators, starters, and control modules for reliable truck operation.',
-    image: IMAGES.electrical,
+      'Switches, alternators, starter motors, gauges, and electrical modules for reliable truck operation.',
+    image: '/images/switches.jpg',
   },
   {
-    id: 'featured-filters',
-    category: 'Filters',
-    title: 'Filters & Fluids',
+    id: 'featured-cabin',
+    category: 'Cabin & Body',
+    title: 'Cabin & Body Parts',
     description:
-      'Oil, fuel, air, and cabin filters engineered to protect engine performance and extend service life.',
-    image: IMAGES.filters,
+      'Complete cab shells, door assemblies, headlamps, mirrors, and front mask covers for HOWO and SITRAK.',
+    image: '/images/cabin  parts.jpg',
   },
 ];

@@ -31,11 +31,10 @@ export const FOOTER_LINKS = [
 export const CATEGORIES = [
   'All',
   'Engine Parts',
-  'Brake System',
   'Transmission',
-  'Suspension',
-  'Filters',
+  'Differential',
   'Electrical Parts',
+  'Cabin & Body',
 ];
 
 export const STATS = [
@@ -74,14 +73,34 @@ export const WHY_CHOOSE_US = [
 ];
 
 export const IMAGES = {
-  hero: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&q=80',
-  warehouse: 'https://images.unsplash.com/photo-1553413077-1900a8e2a4c6?w=1200&q=80',
-  engine: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80',
-  brake: 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=800&q=80',
-  transmission: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-  suspension: 'https://images.unsplash.com/photo-1601584115197-04b0deb3316b?w=800&q=80',
-  electrical: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80',
-  filters: 'https://images.unsplash.com/photo-1487754180451-cda2bc7b85ff?w=800&q=80',
-  team: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=1200&q=80',
-  about: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80',
+  // Main section placeholders
+  hero: '/images/cabin.jpg',
+  warehouse: '/images/gearbox.jpg',
+  about: '/images/motor.jpg',
+  team: '/images/gearbox.jpg',
+
+  // Categories
+  engine: '/images/motor.jpg',
+  brake: '/images/bevel-gear.jpg',
+  transmission: '/images/gearbox.jpg',
+  suspension: '/images/differential.jpg',
+  electrical: '/images/alternator.jpg',
+  filters: '/images/intercooler.jpg',
+
+  // Spare Parts List
+  parts: {
+    alternator: '/images/alternator.jpg',
+    bevelGear: '/images/bevel-gear.jpg',
+    cabin: '/images/cabin.jpg',
+    connectingRod: '/images/connecting-rod.jpg',
+    crankshaft: '/images/crankshaft.jpg',
+    cylinder: '/images/cylinder.jpg',
+    differential: '/images/differential.jpg',
+    gearbox: '/images/gearbox.jpg',
+    intercooler: '/images/intercooler.jpg',
+    piston: '/images/piston.jpg',
+    radiator: '/images/radiator.jpg',
+    starterMotor: '/images/starter-motor.jpg',
+    turbocharger: '/images/turbocharger.jpg',
+  }
 };

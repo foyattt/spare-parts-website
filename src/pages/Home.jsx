@@ -88,7 +88,7 @@ export default function Home() {
               className="overflow-hidden rounded-[16px] shadow-[var(--shadow-soft)]"
             >
               <img
-                src={IMAGES.warehouse}
+                src="/images/warehouse.jpg"
                 alt="Spare parts warehouse"
                 className="aspect-[4/3] w-full object-cover"
                 loading="lazy"

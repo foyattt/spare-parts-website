@@ -70,7 +70,7 @@ export default function About() {
               className="overflow-hidden rounded-[16px] shadow-[var(--shadow-soft)]"
             >
               <img
-                src={IMAGES.about}
+                src="/images/ab.png"
                 alt="Industrial warehouse operations"
                 className="aspect-[4/3] w-full object-cover"
                 loading="lazy"
@@ -135,7 +135,7 @@ export default function About() {
               className="order-2 overflow-hidden rounded-[16px] shadow-[var(--shadow-soft)] lg:order-1"
             >
               <img
-                src={IMAGES.team}
+                src="/images/team.jpg"
                 alt="Professional team"
                 className="aspect-[4/3] w-full object-cover"
                 loading="lazy"
