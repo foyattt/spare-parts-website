@@ -40,7 +40,7 @@ export default function Home() {
               className="mt-6 max-w-2xl text-lg leading-relaxed text-white/85 sm:text-xl"
             >
               Ze-Sino Trading PLC is a trusted importer and supplier of genuine and high-quality
-              aftermarket Sinotruk spare parts. With over 10 years of experience, we provide
+               Sinotruk spare parts. With over 10 years of experience, we provide
               reliable parts for HOWO and SITRAK trucks, serving transport companies, construction
               businesses, mechanics, fleet operators, and spare parts dealers with dependable
               products and professional service.
@@ -105,8 +105,8 @@ export default function Home() {
                 10+ Years of Trusted Experience
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-muted">
-                For more than a decade, Ze-Sino Trading PLC has been supplying genuine and
-                aftermarket Sinotruk spare parts with a commitment to quality, reliability, and
+                For more than a decade, Ze-Sino Trading PLC has been supplying genuine
+               Sinotruk spare parts with a commitment to quality, reliability, and
                 customer satisfaction. Our experienced team understands the needs of Ethiopia&apos;s
                 transport and construction industries, providing dependable solutions backed by
                 professional service and trusted sourcing.
