@@ -12,7 +12,7 @@ export const COMPANY = {
   address: 'Addis Ababa, Ethiopia',
   addressDetail: 'Industrial district — exact location available upon request',
   mapEmbedUrl:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.346789!2d38.7468!3d9.0320!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMDEnNTUuMiJOIDM4wrA0NCc0OC41IkU!5e0!3m2!1sen!2set!4v1700000000000',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.0316421284515!2d38.7467431!3d8.9692314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b859139f66179%3A0xe462aa5cfdc74a92!2sZesino%20General%20Trading%20plc!5e0!3m2!1sen!2set!4v1785052887922!5m2!1sen!2set',
 };
 
 export const NAV_LINKS = [
@@ -48,7 +48,7 @@ export const WHY_CHOOSE_US = [
   {
     title: 'Premium Spare Parts',
     description:
-      'Genuine and high-quality aftermarket Sinotruk components sourced from trusted manufacturers.',
+      'Genuine and high-quality Sinotruk components sourced from trusted manufacturers.',
   },
   {
     title: 'Reliable Sourcing',
@@ -73,34 +73,18 @@ export const WHY_CHOOSE_US = [
 ];
 
 export const IMAGES = {
-  // Main section placeholders
+  // Main section images
   hero: '/images/cabin.jpg',
   warehouse: '/images/gearbox.jpg',
   about: '/images/motor.jpg',
   team: '/images/gearbox.jpg',
 
-  // Categories
+  // Your 5 main product categories
   engine: '/images/motor.jpg',
-  brake: '/images/bevel-gear.jpg',
-  transmission: '/images/gearbox.jpg',
-  suspension: '/images/differential.jpg',
+  transmission: '/images/transmission parts.jpg', // or '/images/transmission-parts.jpg'
+  differential: '/images/differential pats.jpg',
   electrical: '/images/alternator.jpg',
-  filters: '/images/intercooler.jpg',
+  cabin: '/images/cabin  parts.jpg',
+};
 
   // Spare Parts List
-  parts: {
-    alternator: '/images/alternator.jpg',
-    bevelGear: '/images/bevel-gear.jpg',
-    cabin: '/images/cabin.jpg',
-    connectingRod: '/images/connecting-rod.jpg',
-    crankshaft: '/images/crankshaft.jpg',
-    cylinder: '/images/cylinder.jpg',
-    differential: '/images/differential.jpg',
-    gearbox: '/images/gearbox.jpg',
-    intercooler: '/images/intercooler.jpg',
-    piston: '/images/piston.jpg',
-    radiator: '/images/radiator.jpg',
-    starterMotor: '/images/starter-motor.jpg',
-    turbocharger: '/images/turbocharger.jpg',
-  }
-};

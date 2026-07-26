@@ -24,9 +24,9 @@ export default function ProductCard({ product, index = 0 }) {
         <div className="p-5">
           <Badge className="mb-3">{product.category}</Badge>
           <h3 className="text-lg font-semibold leading-snug text-navy">{product.name}</h3>
-          <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
-            {product.description}
-          </p>
+         <p className="text-muted-foreground text-sm leading-relaxed">
+           {product.description}
+            </p>
         </div>
       </Card>
     </motion.div>
