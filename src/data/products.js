@@ -19,7 +19,7 @@ export const PRODUCTS = [
     name: 'Connecting Rod Bearing Set',
     category: 'Engine Parts',
     description: 'High-durability con-rod bearing set designed for high compression loads.',
-    image: '/images/connecting rod baering.jpg',
+    image: '/images/connecting-rod.jpg',
   },
   {
     id: 'eng-008',
@@ -29,12 +29,12 @@ export const PRODUCTS = [
     image: '/images/cylinder liner.jpg',
   },
   {
-    id: 'eng-009',
-    name: 'Heavy-Duty Engine Radiator',
-    category: 'Engine Parts',
-    description: 'High-flow cooling radiator built for extreme operating temperatures.',
-    image: '/images/radiator.jpg',
-  },
+  id: 'eng-009',
+  name: 'Cylinder',
+  category: 'Engine Parts',
+  description: 'Heavy-duty engine cylinder block engineered for optimal heat dissipation and durability.',
+  image: '/images/cylinder.jpg',
+},
   {
     id: 'eng-010',
     name: 'Water & Oil Pump Assembly',
@@ -43,18 +43,11 @@ export const PRODUCTS = [
     image: '/images/pumps.jpg',
   },
   {
-    id: 'eng-011',
-    name: 'Engine Charge Air Intercooler',
-    category: 'Engine Parts',
-    description: 'Efficient air-to-air intercooler for intake air temperature reduction.',
-    image: '/images/intercooler.jpg',
-  },
-  {
     id: 'eng-001',
     name: 'Sinotruk Engine Piston Assembly',
     category: 'Engine Parts',
     description: 'OEM-quality piston assembly for HOWO T5G and SITRAK C7H engines.',
-    image: '/images/piston.jpg',
+    image: '/images/pis.jpg',
   },
   {
     id: 'eng-002',
@@ -71,12 +64,12 @@ export const PRODUCTS = [
     image: '/images/crankshaft.jpg',
   },
   {
-    id: 'eng-004',
-    name: 'Connecting Rod & Bearings',
-    category: 'Engine Parts',
-    description: 'Precision-machined connecting rod and bearing set.',
-    image: '/images/connecting rod.jpg',
-  },
+  id: 'eng-004',
+  name: 'Engine Connecting Rod',
+  category: 'Engine Parts',
+  description: 'High-strength forged steel connecting rod designed for high compression loads.',
+  image: '/images/connecting rod.jpg',
+},
 
  
   // --- TRANSMISSION ---
@@ -220,6 +213,28 @@ export const PRODUCTS = [
     description: 'Impact-resistant front cabin cover for engine bay protection.',
     image: '/images/front cover.jpg',
   },
+  // --- COOLING SYSTEM ---
+{
+  id: 'cool-001',
+  name: 'Engine Radiator',
+  category: 'cooling system', // <-- MUST MATCH EXACTLY
+  description: 'Heavy-duty aluminum radiator...',
+  image: '/images/radiator.jpg',
+},
+{
+  id: 'cool-002',
+  name: 'Intercooler Assembly',
+  category: 'cooling system', // <-- MUST MATCH EXACTLY
+  description: 'High-performance charge air cooler...',
+  image: '/images/intercooler.jpg',
+},
+{
+  id: 'cool-003',
+  name: 'Intercooler Assembly',
+  category: 'cooling system', // <-- MUST MATCH EXACTLY
+  description: 'High-performance charge air cooler...',
+  image: '/images/fan.jpg',
+},
 ];
 
 export const ITEMS_PER_PAGE = 8;
