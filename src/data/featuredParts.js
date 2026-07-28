@@ -39,4 +39,13 @@ export const FEATURED_PARTS = [
       'Complete cab shells, door assemblies, headlamps, mirrors, and front mask covers for HOWO and SITRAK.',
     image: '/images/cabin  parts.jpg',
   },
+  {
+    id: 'featured-cooling',
+    category: 'Cooling System',
+    title: 'Cooling System Parts',
+    description:
+      'Engine radiators, water pumps, cooling fans, and thermostats designed to prevent overheating under heavy loads.',
+    image: '/images/cooling parts.jpg',
+  },
+
 ];

@@ -22,19 +22,31 @@ export default function Home() {
           <div className="absolute inset-0 bg-navy/75" />
         </div>
 
-        <div className="container-custom relative z-10 py-20">
+  <div className="container-custom relative z-10 py-20">
           <motion.div
             variants={fadeIn}
             initial="hidden"
             animate="visible"
             className="max-w-3xl"
           >
+            {/* Giant Bold Welcome Headline */}
             <motion.h1
               variants={slideUp}
-              className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-[4.5rem]"
+              className="text-4xl font-extrabold leading-none tracking-tight text-white sm:text-6xl lg:text-7xl xl:text-[5rem]"
+            >
+              Welcome to <br className="hidden sm:inline" />
+              <span className="text-amber-400">Ze-sino Trading PLC</span>
+            </motion.h1>
+
+            {/* Smaller Genuine Text Subtitle */}
+            <motion.p
+              variants={slideUp}
+              className="mt-4 text-xl font-semibold tracking-wide text-gray-200 sm:text-2xl lg:text-3xl"
             >
               Genuine Sinotruk Spare Parts for Every Journey
-            </motion.h1>
+            </motion.p>
+
+            {/* Paragraph Text */}
             <motion.p
               variants={slideUp}
               className="mt-6 max-w-2xl text-lg leading-relaxed text-white/85 sm:text-xl"

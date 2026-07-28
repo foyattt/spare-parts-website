@@ -4,10 +4,10 @@ export const COMPANY = {
   email: 'zesino1676@gmail.com',
   telegram: '@ZeSinoTrading',
   telegramUrl: 'https://t.me/ZeSinoTrading',
-  phones: [  '+251911248706','+251911222954' , '+251983676767', '+251983575757',],
+  phones: [  '+251911248706','+251911222954' , '+251978333355', '+251978333377',],
   businessHours: {
     days: 'Monday – Saturday',
-    hours: '8:00 AM – 5:00 PM',
+    hours: '8:00 AM – 1:00 PM',
   },
   address: 'Addis Ababa, Ethiopia',
   addressDetail: 'Industrial district — exact location available upon request',
@@ -35,6 +35,7 @@ export const CATEGORIES = [
   'Differential',
   'Electrical Parts',
   'Cabin & Body',
+  'cooling system',
 ];
 
 export const STATS = [
