@@ -41,11 +41,11 @@ export const FEATURED_PARTS = [
   },
   {
     id: 'featured-cooling',
-    category: 'Cooling System',
+    category: 'cooling System',
     title: 'Cooling System Parts',
     description:
       'Engine radiators, water pumps, cooling fans, and thermostats designed to prevent overheating under heavy loads.',
-    image: '/images/cooling parts.jpg',
+    image: '/images/fan.jpg',
   },
 
 ];
