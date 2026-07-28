@@ -13,12 +13,38 @@ export default function ContactForm({ className }) {
     formState: { errors, isSubmitting },
   } = useForm();
 
-  const onSubmit = async () => {
-    await new Promise((resolve) => setTimeout(resolve, 800));
-    setSubmitted(true);
-    reset();
-    setTimeout(() => setSubmitted(false), 5000);
-  };
+  const onSubmit = async (data) => {
+  try {
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        access_key: "fd47775e-e8e9-4d2b-85c4-0aa20b4907f3", // Paste your key here
+        name: data.fullName,
+        email: data.email,
+        phone: data.phone,
+        subject: data.subject,
+        message: data.message,
+      }),
+    });
+
+    const result = await response.json();
+
+    if (result.success) {
+      setSubmitted(true);
+      reset();
+      setTimeout(() => setSubmitted(false), 5000);
+    } else {
+      alert("Failed to send message. Please try again.");
+    }
+  } catch (error) {
+    console.error("Form error:", error);
+    alert("Something went wrong. Please check your connection.");
+  }
+};
 
   const inputClass = cn(
     'w-full rounded-[14px] border border-gray-light bg-white px-4 py-3 text-body',
