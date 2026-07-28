@@ -5,10 +5,10 @@ export const COMPANY = {
   telegram: '@ZeSinoTrading',
   telegramUrl: 'https://t.me/ZeSinoTrading',
   phones: [  '+251911248706','+251911222954' , '+251978333355', '+251978333377',],
-  businessHours: {
-    days: 'Monday – Saturday',
-    hours: '8:00 AM – 1:00 PM',
-  },
+ businessHours: {
+  days: 'Monday – Friday: 8:00 AM – 5:00 PM',
+  hours: 'Saturday: 8:00 AM – 1:00 PM',
+},
   address: 'Addis Ababa, Ethiopia',
   addressDetail: 'Industrial district — exact location available upon request',
   mapEmbedUrl:

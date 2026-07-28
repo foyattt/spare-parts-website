@@ -217,24 +217,32 @@ export const PRODUCTS = [
 {
   id: 'cool-001',
   name: 'Engine Radiator',
-  category: 'cooling system', // <-- MUST MATCH EXACTLY
-  description: 'Heavy-duty aluminum radiator...',
+  category: 'cooling system',
+  description: 'Heavy-duty aluminum radiator.',
   image: '/images/radiator.jpg',
 },
 {
   id: 'cool-002',
   name: 'Intercooler Assembly',
-  category: 'cooling system', // <-- MUST MATCH EXACTLY
-  description: 'High-performance charge air cooler...',
+  category: 'cooling system', 
+  description: 'High-performance charge air cooler',
   image: '/images/intercooler.jpg',
 },
 {
   id: 'cool-003',
-  name: 'Intercooler Assembly',
-  category: 'cooling system', // <-- MUST MATCH EXACTLY
-  description: 'High-performance charge air cooler...',
+  name: 'Cooling Fan Assembly',
+  category: 'cooling system',
+  description: 'Heavy-duty engine cooling fan engineered for high airflow and durability.',
   image: '/images/fan.jpg',
 },
+{
+  id: 'cool-004',
+  name: 'Water Pump Assembly',
+  category: 'cooling system',
+  description: 'High-performance water pump for reliable engine coolant circulation.',
+  image: '/images/water pump.jpg',
+},
+
 ];
 
 export const ITEMS_PER_PAGE = 8;
