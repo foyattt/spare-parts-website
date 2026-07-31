@@ -28,37 +28,60 @@ export default function Home() {
             initial="hidden"
             animate="visible"
             className="max-w-3xl"
-          >
-            {/* Giant Bold Welcome Headline */}
+          >{/* 1. Company Name Alone */}
+            {/* 1. Main Brand Name (Biggest) */}
+          {/* 1. Main Brand Name (Biggest) */}
+          {/* 1. Main Brand Name (Single Line, Centered, Large) */}
+          {/* 1. Main Brand Name (Single Line, High-Impact Typography) */}
             <motion.h1
               variants={slideUp}
-              className="text-4xl font-extrabold leading-none tracking-tight text-white sm:text-6xl lg:text-7xl xl:text-[5rem]"
+              className="mx-auto text-center font-black uppercase tracking-[0.08em] text-white whitespace-nowrap text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl drop-shadow-[0_10px_25px_rgba(0,0,0,0.8)]"
             >
-              Welcome to <br className="hidden sm:inline" />
-              <span className="text-amber-400">Ze-sino Trading PLC</span>
+              Ze-Sino{" "}
+              <span className="bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_0_35px_rgba(251,191,36,0.3)]">
+                Trading PLC
+              </span>
             </motion.h1>
 
-            {/* Smaller Genuine Text Subtitle */}
-            <motion.p
+            {/* Subtle Aesthetic Divider */}
+            <motion.div 
               variants={slideUp}
-              className="mt-4 text-xl font-semibold tracking-wide text-gray-200 sm:text-2xl lg:text-3xl"
-            >
-              Genuine Sinotruk Spare Parts for Every Journey
-            </motion.p>
+              className="mx-auto mt-6 h-[1px] w-24 bg-gradient-to-r from-transparent via-amber-400/60 to-transparent"
+            />
 
-            {/* Paragraph Text */}
-            <motion.p
+            {/* 2. Welcome Title & Subtitle (Unified Spacing & High-Contrast Fonts) */}
+            <motion.div variants={slideUp} className="mt-8 text-center space-y-3">
+              <h2 className="text-2xl font-light tracking-[0.15em] uppercase text-zinc-300 sm:text-3xl lg:text-4xl">
+                Welcome to <span className="font-semibold text-white">Ze-Sino</span>
+              </h2>
+              <p className="text-xl font-bold tracking-normal text-amber-400 sm:text-2xl lg:text-3xl drop-shadow-md">
+                Genuine Sinotruk Spare Parts for Every Journey
+              </p>
+            </motion.div>
+
+            {/* 3. High-Aesthetic Glassmorphism Note Card (Distinct Alignment Accent) */}
+            <motion.div
               variants={slideUp}
-              className="mt-6 max-w-2xl text-lg leading-relaxed text-white/85 sm:text-xl"
+              className="group relative mx-auto mt-12 max-w-3xl overflow-hidden rounded-2xl border border-white/10 bg-slate-950/60 p-6 sm:p-8 backdrop-blur-xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] transition-all duration-300 hover:border-amber-400/40"
             >
-              Ze-Sino Trading PLC is a trusted importer and supplier of genuine and high-quality
-               Sinotruk spare parts. With over 10 years of experience, we provide
-              reliable parts for HOWO and SITRAK trucks, serving transport companies, construction
-              businesses, mechanics, fleet operators, and spare parts dealers with dependable
-              products and professional service.
-            </motion.p>
-            <motion.div variants={slideUp} className="mt-10">
-              <Button to="/products" size="lg">
+              {/* Gold Glowing Left Border Accent */}
+              <div className="absolute left-0 top-0 h-full w-[3px] bg-gradient-to-b from-amber-300 via-amber-500 to-transparent opacity-80" />
+
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-4 pl-2">
+                <span className="shrink-0 inline-flex items-center rounded-lg bg-amber-400/10 px-3 py-1 text-xs font-black uppercase tracking-widest text-amber-400 ring-1 ring-amber-400/30 shadow-[0_0_15px_rgba(251,191,36,0.15)]">
+                  Note
+                </span>
+                <p className="text-base leading-relaxed text-zinc-300 sm:text-lg text-center md:text-left font-normal">
+                  <strong className="font-semibold text-white">Ze-Sino Trading PLC</strong> is a trusted importer and supplier of high-quality
+                  Sinotruk spare parts. With over 10 years of experience, we provide
+                  reliable components for HOWO and SITRAK trucks.serving transport fleets, mechanics, and dealers across the region.
+                </p>
+              </div>
+            </motion.div>
+
+            {/* 4. Call to Action Button */}
+            <motion.div variants={slideUp} className="mt-12 text-center">
+              <Button to="/products" size="lg" className="shadow-[0_0_25px_rgba(37,99,235,0.4)] hover:shadow-[0_0_35px_rgba(37,99,235,0.6)] transition-shadow">
                 Browse Products
               </Button>
             </motion.div>
